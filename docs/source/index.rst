@@ -56,6 +56,8 @@ Lokalny odnośnik do innej sekcji w dokumencie:
 Zewnętrzny odnośnik do innej strony internetowej:
 
 `Google <http://www.google.com>`_
+`Przeczytaj dokumentację <https://garudalinux.org/downloads>`
+
 
 
 Listy Numerowana, Wypunktowana, Definicji
