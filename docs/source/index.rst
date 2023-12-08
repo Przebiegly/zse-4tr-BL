@@ -61,22 +61,31 @@ Zewnętrzny odnośnik do innej strony internetowej:
 Listy Numerowana, Wypunktowana, Definicji
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lista numerowana:
+Lista Numerowana
+----------------
 
 1. Element 1
 2. Element 2
 3. Element 3
 
-Lista wypunktowana:
+Lista Wypunktowana
+------------------
 
 - Punkt A
 - Punkt B
 - Punkt C
 
-Lista definicji:
+Lista Definicji
+---------------
 
 :term:`Python`:
    Język programowania ogólnego przeznaczenia.
+
+:term:`HTML`:
+   Język znaczników używany do tworzenia stron internetowych.
+
+:term:`CSS`:
+   Arkusze stylów kaskadowych, używane do stylizacji stron WWW.
 
 Obraz (z Alternatywnym Tekstem oraz Podpisem)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
