@@ -56,6 +56,8 @@ Lokalny odnośnik do innej sekcji w dokumencie:
 Zewnętrzny odnośnik do innej strony internetowej:
 
 `Google <http://www.google.com>`
+`Przeczytaj dokumentację <https://www.example.com/docs>`_
+
 
 Listy Numerowana, Wypunktowana, Definicji
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
