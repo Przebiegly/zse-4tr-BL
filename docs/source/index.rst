@@ -55,7 +55,7 @@ Lokalny odnośnik do innej sekcji w dokumencie:
 
 Zewnętrzny odnośnik do innej strony internetowej:
 
-`Google<http://www.google.com>`
+`Google <http://www.google.com>`_
 
 
 Listy Numerowana, Wypunktowana, Definicji
