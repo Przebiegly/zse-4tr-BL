@@ -16,83 +16,88 @@ zoba :doc:`author`
 
    This project is under active development.
 
-Contents
--------------------------
 
-===========================    - Nagłówek tekstowy poziomu I
+Nagłówek Poziomu 1
+==================
 
------------------------------- - Nagłówek tekstowy poziomu II
+Akapit Tekstowy
+---------------
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -    Nagłówek tekstowy poziomu III
+To jest zwykły tekst w akapicie.
 
-'''''''''''''''''''''''''''''' -    Nagłówek tekstowy poziomu IV
-
-poprostu enter -    Akapit tekstowy
+Akapit Informacyjny (Note, Tip)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. note::
 
-    Akapit informacyjny  - ``..note::``
+   To jest akapit informacyjny. Możesz umieszczać w nim ważne informacje.
 
-.. tip::
+Fragment Kodu (Liniowy)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-    Akapit z tipem    -``..tip::``
+::
 
-``fragment kodu`` - Fragment kodu - liniowy
+   print("Hello, World!")
 
+Fragment Kodu (Blokowy)
+~~~~~~~~~~~~~~~~~~~~~~~
 
-    Fragment kodu - blokowy
-    kod
+.. code-block:: python
 
-:ref:`nazwa_odnosnika` -Odnośnik wewnętrzny (w obrębie dokumentacji)
+   def funkcja_przykladowa():
+       return "To jest przykładowa funkcja."
 
-`tekst odnośnika <edu.gplweb.pl>`    Odnośnik zewnętrzny (do innego serwisu)
+Odnośnik (Lokalny RtD, Zewnętrzny - Inny Serwis)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lista numerowana
+Lokalny odnośnik do innej sekcji w dokumencie:
 
-1.pierwszy
+:ref:`Inna Sekcja`
 
-2.drugi
+Zewnętrzny odnośnik do innej strony internetowej:
 
-3.trzeci
+`Google <http://www.google.com>`
 
-Lista wypunktowana
+Listy Numerowana, Wypunktowana, Definicji
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
--pierwszy
+Lista numerowana:
 
--drugi
+1. Element 1
+2. Element 2
+3. Element 3
 
--trzeci    
+Lista wypunktowana:
 
-Lista definicji – termin
+- Punkt A
+- Punkt B
+- Punkt C
 
-Termin1
+Lista definicji:
 
-:definicja1
+:term:`Python`:
+   Język programowania ogólnego przeznaczenia.
 
-Termin2
+Obraz (z Alternatywnym Tekstem oraz Podpisem)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:definicja2    
+.. figure:: obraz.png
+   :alt: Alternatywny Tekst
+   :figclass: align-center
 
-- definicja
-Obraz - ścieżka
-- szerokość dla CSS
- - wycentrowanie dla kontenera
- - tekst alternatywny atrybutu ALT znacznika IMG
- - podpis pod obrazkiem
+   Podpis do obrazu.
 
-.. image:: ścieżka/do/obrazu.png
-   :width: szerokość
-   :align: wycentrowanie
-   :alt: tekst alternatywny    
+Tabela
+~~~~~~
 
-    Tabela z danymi
-+------------+------------+
-| Kolumna 1  | Kolumna 2  |
-+============+============+
-| Wiersz 1   | Wiersz 1   |
-+------------+------------+
-| Wiersz 2   | Wiersz 2   |
-+------------+------------+
++------------+-----------+
+| Kolumna 1  | Kolumna 2 |
++============+===========+
+| Wiersz 1    | Wartość A |
++------------+-----------+
+| Wiersz 2    | Wartość B |
++------------+-----------+
+
 Lista Zadań wykonanych i niewykonanych
 
 - [x] Zadanie wykonane
