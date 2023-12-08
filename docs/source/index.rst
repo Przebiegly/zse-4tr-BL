@@ -50,6 +50,7 @@ Odnośnik (Lokalny RtD, Zewnętrzny - Inny Serwis)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Lokalny odnośnik do innej sekcji w dokumencie:
+
 :ref:`Lista Definicji`_
 :ref:`Lista Definicji`
 
