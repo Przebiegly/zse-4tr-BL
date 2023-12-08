@@ -52,7 +52,7 @@ Odnośnik (Lokalny RtD, Zewnętrzny - Inny Serwis)
 
 Lokalny odnośnik do innej sekcji w dokumencie:
 
-:ref:`Inna Sekcja`
+:ref:`Lista Definicji`
 
 Zewnętrzny odnośnik do innej strony internetowej:
 
